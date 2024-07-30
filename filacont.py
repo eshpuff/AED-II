@@ -25,21 +25,19 @@ class filaCont:
             
             self.vetor[self.fim] = valor
             self.tamanho += 1 
+
+    def buscar(self):
+        if self.tamanho == 0:
+            return None
+        return self.vetor[self.ini]
+        
+    def remove(self):
+        if self.tamanho() > 0:
+            self.vetor[self.ini] = None
+            self.ini = self.ini + 1
+
             
-            
-            
-            
-            
-            # if self.ini <= self.fim and self.fim < self.max - 1:    
-            #     if self.fim < self.max - 1:
-            #         self.fim += 1
-            #         self.vetor[self.fim] = valor
-            #         self.tamanho += 1
-            # if self.ini <= self.fim and self.fim == self.max -1:
-            #     self.fim = 0
-            #     self.vetor[self.fim] = valor
-            #     self.tamanho += 1
-            # # if self.ini > self.fim:
+ 
             
                                              
 

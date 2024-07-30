@@ -7,6 +7,7 @@ class filaEnc:
     def __init__ (self):
         self.ini = None
         self.fim = None
+
     def inserir(self, valor):
         elem = nodo(valor)
         if self.ini == None and self.fim == None:
@@ -15,7 +16,7 @@ class filaEnc:
             self.fim.prox = elem        
         self.fim = elem
         
-    def consultar(self):
+    def buscar(self):
         if self.ini != None:
             return self.ini.info
         else:
@@ -26,12 +27,13 @@ class filaEnc:
             if self.ini == self.fim:
                 self.fim = None
             self.ini = self.ini.prox
+
             
             
 var = filaEnc()
 var.inserir(10)
 var.inserir(20)
 var.inserir(30)
-print(var.consultar())
+print(var.buscar())
 var.remove()
-print(var.consultar())
+print(var.buscar())
