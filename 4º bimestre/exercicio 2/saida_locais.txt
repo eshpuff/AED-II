@@ -1,0 +1,30 @@
+Origem: RioGrande Destino: Roma
+RioGrande PortoAlegre 0.50
+PortoAlegre SaoPaulo 1.60
+SaoPaulo Paris 13.00
+Paris Roma 4.00
+Tempo total: 19.1 horas.
+
+Origem: Roma Destino: RioGrande
+Não há rota possível.
+
+Origem: Salvador Destino: Manaus
+Salvador Curitiba 5.00
+Curitiba Floripa 3.00
+Floripa Manaus 1.00
+Tempo total: 9.0 horas.
+
+Origem: Manaus Destino: Floripa
+Manaus Natal 4.00
+Natal Salvador 7.00
+Salvador Curitiba 5.00
+Curitiba Floripa 2.00
+Tempo total: 18.0 horas.
+
+Origem: RioDeJaneiro(GIG) Destino: Dubai(DXB)
+RioDeJaneiro(GIG) SaoPaulo(GRU) 1.08
+SaoPaulo(GRU) NewYork(JFK) 10.50
+NewYork(JFK) London(LHR) 7.50
+London(LHR) Dubai(DXB) 7.08
+Tempo total: 26.2 horas.
+
